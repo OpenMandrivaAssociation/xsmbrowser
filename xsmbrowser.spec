@@ -1,6 +1,6 @@
 %define name    xsmbrowser 
 %define version 3.4.0
-%define release 6mdk
+%define release %mkrel 6
 
 Summary: Tcl/Tk based Samba shares browser
 Name: %{name}
