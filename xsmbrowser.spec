@@ -11,7 +11,6 @@ Source1: %{name}-commands.bz2
 URL: http://www.public.iastate.edu/~chadspen/
 License: GPL
 Group: Networking/File transfer
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 Requires: expect
 
