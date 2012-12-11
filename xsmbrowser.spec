@@ -55,3 +55,63 @@ rm -rf $RPM_BUILD_ROOT
 %dir %_datadir/pixmaps/xsmbrowser/
 %_datadir/pixmaps/xsmbrowser/*
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.4.0-10mdv2010.0
++ Revision: 435297
+- rebuild
+
+* Mon Aug 04 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.4.0-9mdv2009.0
++ Revision: 262707
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.4.0-8mdv2009.0
++ Revision: 257752
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 3.4.0-6mdv2008.1
++ Revision: 130554
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import xsmbrowser
+
+
+* Tue Apr 26 2005 Lenny Cartier <lenny@mandrakesoft.com> 3.4.0-6mdk
+- rebuild
+
+* Mon Feb 23 2004 Lenny Cartier <lenny@mandrakesoft.com> 3.4.0-5mdk
+- rebuild
+
+* Tue Jan 28 2003 Lenny Cartier <lenny@mandrakesoft.com> 3.4.0-4mdk
+- rebuild
+
+* Tue May 07 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 3.4.0-3mdk
+- remove useless prefix
+- add missing requires on expect
+
+* Fri Aug 24 2001 Etienne Faure <etienne@mandrakesoft.com> 3.4.0-2mdk
+- rebuild
+
+* Tue Mar 06 2001 Lenny Cartier <lenny@mandrakesoft.com> 3.4.0-1mdk
+- updated to 3.4.0
+
+* Thu Dec 28 2000 Lenny Cartier <lenny@mandrakesoft.com> 3.3.0-1mdk
+- used srpm from rufus t firefly <rufus.t.firefly@linux-mandrake.com> :
+	- v3.3.0-1mdk
+
+* Mon Dec 04 2000 rufus t firefly <rufus.t.firefly@linux-mandrake.com>
+  - v3.2-1mdk
+  - added xsmbrowser-commands for KDE desktop
+
+* Tue Nov 21 2000 rufus t firefly <rufus.t.firefly@linux-mandrake.com>
+  - v3.0-1mdk
+  - added perl patch for the pixmaps directory
+
+* Wed May 31 2000 rufus t firefly <rufus.t.firefly@linux-mandrake.com>
+  - v2.4.0 (initial packaging)
+  - bz2 archive for Mandrake
+
