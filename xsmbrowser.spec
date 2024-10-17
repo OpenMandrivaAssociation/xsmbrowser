@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 Source1: %{name}-commands.bz2
-URL: http://www.public.iastate.edu/~chadspen/
+URL: https://www.public.iastate.edu/~chadspen/
 License: GPL
 Group: Networking/File transfer
 BuildRoot: %{_tmppath}/%{name}-buildroot
